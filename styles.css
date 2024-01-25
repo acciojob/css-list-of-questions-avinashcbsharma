@@ -1,2 +1,34 @@
-
-/* Your CSS Code here. */
+.main-container{
+            display: flex;
+            flex-direction: column;
+            font-family: sans-serif;
+                      
+        }
+        .bld{
+            font-weight: bold;
+        }
+        .bgsz{
+            font-size: 20px;
+        }
+        .smlfnt{
+            font-size: small;
+            
+        }
+        blockquote{
+            display: flex;
+            flex-direction: column;
+            /* border: 2px solid blue; */
+            
+        }
+        p{
+            /* border: 2px solid yellowgreen; */
+            margin: 0px ;
+        }
+        .questions{
+            background-color: #f8fffe;
+            height: 50px;
+            margin-top: 20px;
+            padding: 15px;
+            max-width: 600px;
+            border-left: 8px solid green;
+        }       
